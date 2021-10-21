@@ -18,5 +18,11 @@ translator = Translator()
 quote = data['quote']
 show = data['show']
 
+# Translating the language
+quote_tr = translator.translate(quote, dest='tr').text
+
+print("------------------------------------------------------------------------------")
 print("Quote:", quote)
+print("Translate:", quote_tr)
 print("Show:", show)
+print("------------------------------------------------------------------------------")
