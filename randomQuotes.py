@@ -1,3 +1,5 @@
+# Console program that show random quotes from movies and shows
+
 # Librarys needed
 import requests
 from googletrans import Translator
